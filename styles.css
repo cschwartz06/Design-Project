@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: palevioletred;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    z-index: 2;/*layering*/
+    border: 5px solid black;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.homeheader{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+nav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 101px;
+    z-index: 2;
+  
+}
+.ok{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;  
+}
+.ok li{
+    float: left;/* shifts to left*/
+}
+.ok li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 130px;
+    text-decoration: none;
+    border: 3px solid black;
+}
+.ok li a:hover{
+   background-color: palevioletred;
+}
+.section1 {
+    height: 300px;
+    width:  300px;
+    border: 5px solid palevioletred;
+    display: inline-block;
+    background-size: 350px 350px;
+    padding: 0;
+    margin: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    color: palevioletred;
+    top: 104px;
+    position: relative;
+    left: 260px;    
+}
+.section2 {
+    height: 300px;
+    width:  300px;
+    border: 5px solid palevioletred;
+    display: inline-block;
+    background-size: 350px 350px;
+    padding: 0;
+    margin: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    color: palevioletred;
+    top: 104px;
+    position: relative;
+    left: 260px;    
+}
+.section3 {
+    height: 300px;
+    width:  300px;
+    border: 5px solid palevioletred;
+    display: inline-block;
+    background-size: 350px 350px;
+    padding: 0;
+    margin: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    color: palevioletred;
+    top: 104px;
+    position: relative;
+    left: 260px;    
+}
+.section1{
+    background-image: url(classic-ccc-RECIPE-CARD.jpg) ;
+    display: inline-block;   
+}
+.section2{
+    background-image: url(Blueberry-Pie25-1.jpg) ;
+    display: inline-block;
+}
+.section3{
+    background-image: url(LR-The-Best-Chocolate-Cake-40.jpg);
+    display: inline-block;
+ 
+}
+.about{
+    height: 3px;
+    width: 1100px;
+    display: inline-block;
+    background-size: 250px 250px;
+    padding: 0%;
+    margin: 60px;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    position: relative;
+    left:300px;
+    border-radius: 5%;
+   
+    
+}
+.media{
+    height: 300px;
+    width: 1700px;
+    border: 10px dashed palevioletred;
+    display: inline-block;
+    background-size: 250px 250px;
+    padding: 0%;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    position: relative;
+    border-radius: 5%;
+}
+.web{
+    list-style: none;  
+}
+.w{
+    display: inline-block;
+    position: relative;
+    top:140px;
+    font-size: 30px;
+}
+.border {
+    height: 530px;
+    width: 1200px;
+    border: 10px solid palevioletred;
+    padding: 0%;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    border-radius: 5%;
+}
+.textc{
+    border: solid 4px palevioletred;
+    top: 120px;
+}
+.cpara{
+    height: 250px;
+    width:  800px;
+    border: 10px dashed palevioletred;
+    display: inline-block;
+    background-size: 250px 250px;
+    padding: 0%;
+    margin: 30px;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    position: relative;
+    border-radius: 5%;
+    left: 250px;
+    top: 70px;
+    background-color: white;
+    
+}
+
+
+.ww{
+    display: inline-block;
+    position: relative;
+    top:140px;
+    font-size: 30px;
+  
+}
+.wwpara{
+    height: 200px;
+    width:  800px;
+    border: 10px dashed palevioletred;
+    display: inline-block;
+    background-size: 250px 250px;
+    padding: 0%;
+    margin: 30px;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    position: relative;
+    border-radius: 5%;
+    left: 170px;
+    top: 160px;
+    background-color: white;
+}
+.www{
+    top:550px;
+    display: inline-block;
+    position: relative;
+    right: 940px;
+    font-size: 30px;
+   
+}
+.wwwpara{
+    height: 200px;
+    width:  800px;
+    border: 10px dashed palevioletred;
+    display: inline-block;
+    background-size: 250px 250px;
+    padding: 0%;
+    margin: 30px;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    position: relative;
+    border-radius: 5%;
+    left: 250px;
+    top: 270px;
+    background-color: white;
+}
+.section4{
+    height: 300px;
+    width:  300px;
+    border: 8px solid palevioletred;
+    display: inline-block;
+    background-size: 350px 350px;
+    padding: 0;
+    margin: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    color: palevioletred;
+    bottom: 500px;
+    position: relative;
+    left: 250px;
+}
+.section5{
+    height: 250px;
+    width:  250px;
+    border: 8px solid palevioletred;
+    display: inline-block;
+    background-size: 350px 350px;
+    padding: 0;
+    margin: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    color: palevioletred;
+    bottom: 240px;
+    position: relative;
+    right: 20px;
+}
+.section6{
+    height: 300px;
+    width:  300px;
+    border: 8px solid palevioletred;
+    display: inline-block;
+    background-size: 350px 350px;
+    padding: 0;
+    margin: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    color: palevioletred;
+    bottom: 405px;
+    position: relative;
+    left: 1118px;
+}
+.section4{
+    background-image: url(soft-sugar-cookies-5-600x900.jpg) ;
+    display: inline-block;   
+}
+.section5{
+    background-image: url(strawberry.jpg) ;
+    display: inline-block;   
+}
+.section6{
+    background-image: url(blueberry-muffin.webp) ;
+    display: inline-block;   
+}

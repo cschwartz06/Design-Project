@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: palevioletred;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    z-index: 2;/*layering*/
+    border: 5px solid black;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.homeheader{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+nav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 101px;
+    z-index: 2;
+  
+}
+.ok{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;  
+}
+.ok li{
+    float: left;/* shifts to left*/
+}
+.ok li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 130px;
+    text-decoration: none;
+    border: 3px solid black;
+}
+.ok li a:hover{
+   background-color: palevioletred;
+}
+.title{
+   position: relative;
+   display: inline-block;
+   top: 200px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 300px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 5px solid pink;
+    background-size: cover;
+    background-position: center;
+}
+.section1 {
+    background-image: url(LR-The-Best-Chocolate-Cake-40.jpg);
+
+}
+.section2{
+    background-image: url(HomemadeChocolateChipCookies_36600-1_Hero_V1_16x9.jpeg);
+
+}
+.section3{
+    background-image: url(images\ \(1\).jpg);
+}
+.section4{
+    background-image: url(double-chocolate-chip-fudge-cookies.jpg);
+}
+.section5{
+    background-image: url(IMG_3506-cookie-dough-ice-cream.jpg);
+}
+.section6{
+    background-image: url(Blueberry-Muffins-SpendWithPennies-7.jpg);
+}
+.section7{
+    background-image: url(Apple-pie.webp);
+}
+.section8{
+    background-image: url(images\ \(2\).jpg);
+}
+.section9{
+    background-image: url(Fudgy-Brownies-Recipe-1.jpg);
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ /* Gallery Container */
+ gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+    justify-content: center;
+    padding: 10px;
+ }
+ /* Individual Gallery Items */
+ gallery-item {
+    flex: 1 1 calc(25% - 20px); /* Adjust width for responsiveness */
+    max-width: calc(25% - 20px);
+ }
+ gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+ }
+ /* Responsive Design */
+ @media (max-width: 768px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+ }
+ @media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+ }
+   
